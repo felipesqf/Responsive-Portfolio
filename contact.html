@@ -2,58 +2,70 @@
 <html lang="en-us">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Contact</title>
         <link rel="stylesheet" type="text/css" href="reset.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
 
       <style>
-        body{
-          background-color: white;
-          background-size: cover;
-          background-position: center;
-          font-family: helvetica;
-        }
+        #felipe{
+        font-size: 17px;
+        color: #f2f2f2;
+        padding-top: 7px;
+        font-family: 'Russo One', sans-serif;
+
+        }   
         header{
-          background-color: rgb(33, 209, 221);
+          background-color: #8076a3;
+          
+        }
+        .topnav {
+          overflow: hidden;
+        }
+
+        /* Style the links inside the navigation bar */
+        .topnav a {
+          float: left;
+          display: block;
+          color: #f2f2f2;
+          text-align: center;
+          text-decoration: none;
+        }
+
+        /* Change the color of links on hover */
+        .topnav a:hover {
+          background-color: #ddd;
+          color: black;
+        }
+
+        /* Add an active class to highlight the current page */
+        .topnav a.active {
+          background-color: #4CAF50;
           color: white;
         }
-        #felipe{
-          font-size: large;
-        }
-        #contact-section{
-          background-color: rgb(245, 243, 243);
-        }
-        @media screen and (max-width: 768px) {
-          body {
-            background-color: #333;
-          }
+
+        /* Hide the link that should open and close the topnav on small screens */
+        .topnav .icon {
+          display: none;
         }
       </style>
 
     </head>
 
     <body>
-      <header>
-        <div class="container">
-            <div class="row">
-              <div class="col-sm-9" id="felipe">Felipe Ferreira</div>
-              <div class="col-sm-3">
-                <ul class="nav" id="myTopnav">
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="portfolio.html">Portfolio</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="index.html">About</a
-                  </li>
-                </ul>
-              </div>
-            </div>
+      <header class="container">
+        <div class="row">
+          <div class="col-sm-9" id="felipe">Felipe Ferreira</div>
+          <div class="col-sm-3">
+            <nav class="topnav" id="myTopnav">
+                <a class="nav-link" href="contact.html">Contact</a>
+                <a class="nav-link" href="portfolio.html">Portfolio</a>
+                <a class="nav-link" href="index.html">About</a>
+            </nav>
           </div>
-        </header>
+        </div>
+      </header>
         <section class="container" id="contact-section">
           <div class="row"></div>
           <div class="row">
@@ -83,5 +95,6 @@
             <div class="col-sm"><button type="submit" class="btn btn-primary">Submit</button></div>
          </div>
         </section>
+
     </body>
 </html>

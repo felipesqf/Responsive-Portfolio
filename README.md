@@ -9,7 +9,7 @@ First, you will use the Bootstrap CSS Framework to create a mobile responsive po
 
 * Create the following files files: `index.html`, `portfolio.html` and `contact.html`.
 
-* Using Bootstrap, develop your portfolio site with the following items:
+* Using Bootstrap, develop your portfolio site with the following items: 
 
    * A navbar
 
