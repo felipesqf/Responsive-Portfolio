@@ -19,7 +19,7 @@
               clear: both;
             }
             #felipe{
-            font-size: 17px;
+            font-size: 20px;
             color: #f2f2f2;
             padding-top: 7px;
             font-family: 'Russo One', sans-serif;
@@ -27,12 +27,21 @@
             }   
             header{
               background-color: #8076a3;
-              
+              border-top-right-radius: 12px;
+              border-top-left-radius: 12px;
+              padding: 10px 0px 10px 0px;
             }
             .topnav {
               overflow: hidden;
             }
-
+            #aboutme{
+              font-size: 20px;
+              color: #8076a3;
+              font-weight: bolder;
+              font-family: 'Russo One', sans-serif;
+              padding-top: 7px;
+              padding-bottom: 7px;
+            }
             /* Style the links inside the navigation bar */
             .topnav a {
               float: left;
@@ -40,6 +49,7 @@
               color: #f2f2f2;
               text-align: center;
               text-decoration: none;
+              font-weight: bold;
             }
 
             /* Change the color of links on hover */
@@ -47,17 +57,16 @@
               background-color: #ddd;
               color: black;
             }
-
-            /* Add an active class to highlight the current page */
-            .topnav a.active {
-              background-color: #4CAF50;
-              color: white;
+            body{
+            background-image: url(Assets/Images/background.png);
+            }
+            #maincontainer{
+              background-color: white;
+              padding-bottom: 20px;
+              border-bottom-right-radius: 12px;
+              border-bottom-left-radius: 12px;
             }
 
-            /* Hide the link that should open and close the topnav on small screens */
-            .topnav .icon {
-              display: none;
-            }
         </style>
     </head>
     <body>
@@ -73,10 +82,10 @@
           </div>
         </div>
       </header>
-        <div class="container">
+        <section class="container" id="maincontainer">
             <div class="row"></div>
             <div class="row">
-              <div class="col-sm-3">About me</div>
+              <div class="col-sm-3" id="aboutme">About me</div>
             </div>
             <div class="row">
                 <div class="col-sm-6">
@@ -91,8 +100,8 @@
                         -Logic programming skills, analysis and debbuging programs, development reports, use of BAPIs, exits, tables, views and transactions, ALV, Bath Input. </p>
                       </div>
                 </div>
-                
             </div>
             <div class="row"></div>
+          </section>
     </body>
 </html>

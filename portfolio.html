@@ -9,13 +9,8 @@
         <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
         
         <style>
-        @media screen {
-        .container {
-            width: auto;
-        }
-        }
         #felipe{
-        font-size: 17px;
+        font-size: 20px;
         color: #f2f2f2;
         padding-top: 7px;
         font-family: 'Russo One', sans-serif;
@@ -23,6 +18,9 @@
         }   
         header{
           background-color: #8076a3;
+          border-top-right-radius: 12px;
+          border-top-left-radius: 12px;
+          padding: 10px 0px 10px 0px;
           
         }
         .topnav {
@@ -36,6 +34,7 @@
           color: #f2f2f2;
           text-align: center;
           text-decoration: none;
+          font-weight: bold;
         }
 
         /* Change the color of links on hover */
@@ -43,16 +42,27 @@
           background-color: #ddd;
           color: black;
         }
-
-        /* Add an active class to highlight the current page */
-        .topnav a.active {
-          background-color: #4CAF50;
-          color: white;
+        #portifolio{
+          font-size: 20px;
+          color: #8076a3;
+          font-weight: bolder;
+          font-family: 'Russo One', sans-serif;
+          padding-top: 7px;
+          padding-bottom: 7px;
         }
-
-        /* Hide the link that should open and close the topnav on small screens */
-        .topnav .icon {
-          display: none;
+        body{
+          background-image: url(Assets/Images/background.png);
+        }
+        #maincontainer{
+          background-color: white;
+          padding-bottom: 20px;
+          border-bottom-right-radius: 12px;
+          border-bottom-left-radius: 12px;
+        }
+        @media screen { 
+        .container {
+            width: auto;
+        }
         }
         </style>
     </head>
@@ -70,32 +80,32 @@
           </div>
         </div>
       </header>
-        <div class="container">
+        <section class="container" id="maincontainer">
         <div class="row">
-              <div class="col-sm-12">Portfolio</div>
+              <div class="col-sm-12" id="portifolio">Portfolio</div>
+             
             </div>
             <div class="row">
                 <div class="col-sm-3">
-                    <img class="img img-thumbnail" src="Assets/Images/download.png">
+                    <img class="img img-thumbnail" src="Assets/Images/img1.jfif">
                 </div>
                 <div class="col-sm-3">
-                    <img class="img img-thumbnail" src="Assets/Images/download.png"></div>
+                    <img class="img img-thumbnail" src="Assets/Images/img2.jfif"></div>
             </div>
             <div class="row">
                 <div class="col-sm-3">
-                    <img class="img img-thumbnail" src="Assets/Images/download.png">
+                    <img class="img img-thumbnail" src="Assets/Images/img3.jfif">
                 </div>
                 <div class="col-sm-3">
-                    <img class="img img-thumbnail" src="Assets/Images/download.png"></div>
+                    <img class="img img-thumbnail" src="Assets/Images/img6.jfif"></div>
             </div>
             <div class="row">
                 <div class="col-sm-3">
-                    <img class="img img-thumbnail" src="Assets/Images/download.png"></div>
+                    <img class="img img-thumbnail" src="Assets/Images/img5.png"></div>
                 <div class="col-sm-3">
-                    <img class="img img-thumbnail" src="Assets/Images/download.png">
+                    <img class="img img-thumbnail" src="Assets/Images/img4.png">
                 </div>
             </div>
-        </div>
-
+        </section>
     </body>
 </html>

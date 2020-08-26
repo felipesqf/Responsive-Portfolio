@@ -10,15 +10,16 @@
 
       <style>
         #felipe{
-        font-size: 17px;
+        font-size: 20px;
         color: #f2f2f2;
         padding-top: 7px;
         font-family: 'Russo One', sans-serif;
-
         }   
         header{
           background-color: #8076a3;
-          
+          border-top-right-radius: 12px;
+          border-top-left-radius: 12px;
+          padding: 10px 0px 10px 0px;
         }
         .topnav {
           overflow: hidden;
@@ -31,6 +32,7 @@
           color: #f2f2f2;
           text-align: center;
           text-decoration: none;
+          font-weight: bold;
         }
 
         /* Change the color of links on hover */
@@ -38,16 +40,27 @@
           background-color: #ddd;
           color: black;
         }
-
-        /* Add an active class to highlight the current page */
-        .topnav a.active {
-          background-color: #4CAF50;
-          color: white;
+        #contact{
+          font-size: 20px;
+          color: #8076a3;
+          font-weight: bolder;
+          font-family: 'Russo One', sans-serif;
+          padding-top: 7px;
+          padding-bottom: 7px;
         }
-
-        /* Hide the link that should open and close the topnav on small screens */
-        .topnav .icon {
-          display: none;
+        #submit{
+          color: #fff;
+          background-color: #8076a3;
+          border-color: #8076a3;
+        }
+        body{
+          background-image: url(Assets/Images/background.png);
+        }
+        #contact-section{
+          background-color: white;
+          padding-bottom: 20px;
+          border-bottom-right-radius: 12px;
+          border-bottom-left-radius: 12px;
         }
       </style>
 
@@ -69,7 +82,7 @@
         <section class="container" id="contact-section">
           <div class="row"></div>
           <div class="row">
-            <div class="col-sm-8">Contact</div>
+            <div class="col-sm-8" id="contact">Contact</div>
           </div>
           <div class="row">
             <div class="col-sm-8">
@@ -79,20 +92,20 @@
                 <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                 <small id="emailHelp" class="form-text text-muted"></small>
               </div>
-            <div class="form-group">
-              <label for="exampleInputPassword1">Email</label>
-              <input type="password" class="form-control" id="exampleInputPassword1">
-            </div>
+              <div class="form-group">
+                <label for="exampleInputPassword1">Email</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+              </div>
               <div class="mb-3">
                 <label for="validationTextarea">Message</label>
-                <textarea class="form-control is-invalid" id="validationTextarea" placeholder="Message" required></textarea>
-                <div class="invalid-feedback">
-                </div>
+                <textarea class="form-control is-invalid" id="validationTextarea"></textarea>
+                
               </div>
             </div>
           </div>
           <div class="row">
-            <div class="col-sm"><button type="submit" class="btn btn-primary">Submit</button></div>
+            <div class="col-sm">
+              <button type="submit" class="btn btn-primary" id="submit">Submit</button></div>
          </div>
         </section>
 
