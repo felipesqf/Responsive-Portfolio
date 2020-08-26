@@ -5,27 +5,21 @@ This is a personal profile front end website made in Html and CSS.
 The project is composed of 3 pages, index.html, portfolio.html and contact.html,and CSS files such as reset.css, style.css etc. It also has images in the img folder
 
 ## User Story
-AS A marketing agency
-I WANT a codebase that follows accessibility standards
-SO THAT our own site is optimized for search engines
+Felipe Ferreira require a website where he can update his information and advertise his work. People can check his website to see his portfolio, information and contact him. Find below some requirements mentioned:
+
+   * A navbar
+   * A responsive layout
+   * Responsive images
 ​
 ## Acceptance Criteria
 * Functional, deployed application
-
 * GitHub repository with README describing the project
-
 * Navbar must be consistent on each page.
-
 * Navbar on each page must contain links to Home/About, Contact, and Portfolio pages.
-
 * All links must work.
-
 * Must use semantic html.
-
 * Each page must have valid and correct HTML. (use a validation service)
-
 * Must contain your personalized information. (bio, name, images, links to social media, etc.)
-
 * Must properly utilize Bootstrap components and grid system.
 
 ## Built With
@@ -42,7 +36,7 @@ SO THAT our own site is optimized for search engines
 N/A.
 ​
 ### Link to the Website
-<a href="https://felipesqf.github.io/Responsive-Portfolio/">Link to the Horiseon website</a>
+<a href="https://felipesqf.github.io/Responsive-Portfolio/">Link to the Felipe Ferreira Profile Website</a>
 
 ## Authors
 Felipe Ferreira  <br><br>
