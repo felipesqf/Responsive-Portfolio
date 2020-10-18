@@ -39,6 +39,11 @@
       padding-top: 7px;
       padding-bottom: 7px;
     }
+    .card{
+      width: 18rem;
+      height: 22rem;
+      margin-bottom: 10px;
+    }
     body{
       background-image: url(Assets/Images/background.png);
     }
