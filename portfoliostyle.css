@@ -44,7 +44,7 @@
       height: 22rem;
       margin-bottom: 10px;
     }
-    body{
+    body, .container{
       background-image: url(Assets/Images/background.png);
     }
     #maincontainer{
