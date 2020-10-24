@@ -3,8 +3,15 @@
     color: black;
     padding-top: 7px;
     font-family: 'Syne Mono', monospace;
-
+    text-decoration: none;
+ 
     }   
+
+    a:hover {
+      color: black;
+      display: block;
+      text-decoration: none;
+    }
     header{
       border-top-right-radius: 12px;
       border-top-left-radius: 12px;
@@ -42,7 +49,24 @@
       width: 18rem;
       height: 22rem;
       margin-bottom: 10px;
+      font-family: 'Syne Mono', monospace;
     }
+    .card a{
+      color: #fff;
+      background-color: black;
+      border-color: black;
+      font-family: 'Syne Mono', monospace;
+      text-decoration: none;
+    }
+    .card a:hover{
+      text-decoration: none;
+      color: #fff;
+      background-color: black;
+      border-color: black;
+      font-family: 'Syne Mono', monospace;
+    }
+
+
     body, .container{
       background-image: url(Assets/Images/embossed-diamond.png);
     }
