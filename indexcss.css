@@ -1,25 +1,27 @@
 body{
     background-image: url(Assets/Images/embossed-diamond.png);
-    font-family: 'Syne Mono', monospace;
+    font-family: 'Fredericka the Great', cursive;
+
     text-align: center;
      display: block;
  }
- #felipeferreira{
-    font-size: 100px;
- }
+
 #aboutme{
-    font-size: 190px;
+    font-size: 200px;
+    text-align: center;
     margin:0;
     padding:0;
 
 }
 #portfolio{
-    font-size: 170px;
+    font-size: 200px;
+    text-align: center;
     margin:0;
     padding:0;
  }
  #contact{
-    font-size: 220px;
+    font-size: 200px;
+    text-align: center;
     margin:0;
     padding:0;
  }
