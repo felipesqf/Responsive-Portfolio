@@ -27,6 +27,7 @@ Felipe Ferreira require a website where he can update his information and advert
 * [Terminal](https://gitforwindows.org/) - What would we do without our bash?
 ​
 #### Final Interface
+![screenshot1](https://github.com/felipesqf/Responsive-Portfolio/blob/master/Assets/Images/portfolio.PNG) 
 ​![screenshot1](https://github.com/felipesqf/Responsive-Portfolio/blob/master/Assets/Images/fferreira-aboutme.PNG) 
 ![screenshot1](https://github.com/felipesqf/Responsive-Portfolio/blob/master/Assets/Images/fferreira-contact.PNG)
 ![screenshot1](https://github.com/felipesqf/Responsive-Portfolio/blob/master/Assets/Images/fferreira-portfolio.PNG)
@@ -36,7 +37,7 @@ Felipe Ferreira require a website where he can update his information and advert
 N/A.
 ​
 ### Link to the Website
-<a href="https://felipesqf.github.io/Responsive-Portfolio/">Link to the Felipe Ferreira Profile Website</a>
+<a href="https://felipesqf.github.io/Responsive-Portfolio/">Link to the Felipe Ferreira Portfolio</a>
 
 ## Authors
 Felipe Ferreira  <br><br>
