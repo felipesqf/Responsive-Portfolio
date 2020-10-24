@@ -2,6 +2,7 @@ body{
     background-image: url(Assets/Images/embossed-diamond.png);
     font-family: 'Syne Mono', monospace;
     text-align: center;
+     display: block;
 
  }
  #felipeferreira{
@@ -22,4 +23,6 @@ body{
  }
 a:hover {
    color: black;
+   display: block;
+   text-decoration: none;
  }

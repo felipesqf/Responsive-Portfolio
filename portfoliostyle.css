@@ -1,12 +1,11 @@
 #felipe{
     font-size: 20px;
-    color: #f2f2f2;
+    color: black;
     padding-top: 7px;
-    font-family: 'Russo One', sans-serif;
+    font-family: 'Syne Mono', monospace;
 
     }   
     header{
-      background-color: #8076a3;
       border-top-right-radius: 12px;
       border-top-left-radius: 12px;
       padding: 10px 0px 10px 0px;
@@ -20,22 +19,22 @@
     .topnav a {
       float: right;
       display: block;
-      color: #f2f2f2;
+      color: black;
       text-align: center;
       text-decoration: none;
       font-weight: bold;
+       font-family: 'Syne Mono', monospace;
     }
 
     /* Change the color of links on hover */
     .topnav a:hover {
-      background-color: #ddd;
       color: black;
     }
     #portifolio{
       font-size: 20px;
-      color: #8076a3;
+      color: black;
       font-weight: bolder;
-      font-family: 'Russo One', sans-serif;
+      font-family: 'Syne Mono', monospace;
       padding-top: 7px;
       padding-bottom: 7px;
     }
@@ -45,16 +44,14 @@
       margin-bottom: 10px;
     }
     body, .container{
-      background-image: url(Assets/Images/background.png);
+      background-image: url(Assets/Images/embossed-diamond.png);
     }
     #maincontainer{
-      background-color: white;
       padding-bottom: 20px;
     }
     footer{
-          background-color: #8076a3;
           font-size: 10px;
-          color: #f2f2f2;
+          color: black;
           /* padding: 10px 0px 10px 0px; */
           border-bottom-right-radius: 12px;
           border-bottom-left-radius: 12px;
