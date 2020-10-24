@@ -17,3 +17,9 @@ body{
  #contact{
     font-size: 220px;
  }
+ a {
+   color: black;
+ }
+a:hover {
+   color: black;
+ }
