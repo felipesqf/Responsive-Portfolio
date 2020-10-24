@@ -31,6 +31,7 @@
       text-align: center;
       text-decoration: none;
       font-family: 'Fredericka the Great', cursive;
+      animation:none
     }
 
     /* Change the color of links on hover */
@@ -47,7 +48,7 @@
     }
     .card{
       width: 18rem;
-      height: 22rem;
+      height: 23.5rem;
       margin-bottom: 10px;
       font-family: 'Roboto', sans-serif;
     }
@@ -64,6 +65,7 @@
       background-color: black;
       border-color: black;
       font-family: 'Roboto', sans-serif;
+      animation:none
     }
     body{
       background-image: url(Assets/Images/embossed-diamond.png);
