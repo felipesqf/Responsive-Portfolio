@@ -30,7 +30,6 @@
       color: black;
       text-align: center;
       text-decoration: none;
-
       font-family: 'Fredericka the Great', cursive;
     }
 
@@ -66,8 +65,6 @@
       border-color: black;
       font-family: 'Roboto', sans-serif;
     }
-
-
     body{
       background-image: url(Assets/Images/embossed-diamond.png);
     }
