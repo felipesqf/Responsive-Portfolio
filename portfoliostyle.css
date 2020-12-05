@@ -7,7 +7,7 @@
 
     }   
 
-    a:hover {
+    .card-body a:hover {
       color: black;
       display: block;
       text-decoration: none;
@@ -65,7 +65,6 @@
       background-color: black;
       border-color: black;
       font-family: 'Roboto', sans-serif;
-      animation:none
     }
     body{
       background-image: url(Assets/Images/embossed-diamond.png);
